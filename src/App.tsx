@@ -1,10 +1,13 @@
 import React from 'react';
-import {Text} from 'react-native';
+import ChatScreen from "@app/screens/ChatScreen/ChatScreen";
+import { View } from "react-native";
 
 function App(): React.ReactElement {
   return (
     <>
-      <Text>Test screen</Text>
+      <View style={{ flex: 1, padding: 10 }}>
+        <ChatScreen />
+      </View>
     </>
   );
 }
